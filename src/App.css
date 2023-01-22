@@ -1,0 +1,97 @@
+.filterBtns {
+  box-shadow: 0.25rem 0.25rem 0.75rem 0rem rgb(77, 76, 76);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 0.75rem;
+  background-color: orange;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
+}
+.category,
+.isveg {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+.dropdown {
+  padding: 0.25rem;
+  margin: 0rem 0.25rem;
+  border: none;
+  border-radius: 0.3rem;
+  outline: none;
+  font-weight: 700;
+}
+.filterBtn {
+  padding: 0.5rem 1rem;
+  border: solid 0.1rem white;
+  border-radius: 0.3rem;
+  background-color: orange;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
+}
+.filterBtn:hover {
+  background-color: white;
+  color: orange;
+  transition: 0.1s;
+}
+.items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.item {
+  /* border: solid 0.1rem black; */
+  border-radius: 1.5rem;
+  box-shadow: 0.5rem 0.5rem 1rem 0.2rem rgb(77, 76, 76);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0.3;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin: 2rem;
+  width: 23rem;
+  min-width: 23rem;
+  max-width: 28rem;
+}
+.item:hover {
+  box-shadow: 0.6rem 0.6rem 1.25rem 0.3rem rgb(56, 55, 55);
+  transition: 0.2s;
+  position: relative;
+  top: 0.1rem;
+}
+.img {
+  padding: 0.5rem;
+  border: solid 0.3rem orange;
+  border-radius: 0.75rem;
+  width: 20rem;
+  /* height: 20rem; */
+}
+.itemTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.orderBtn {
+  border: solid 0.15rem orange;
+  border-radius: 0.5rem;
+  background-color: white;
+  color: orange;
+  /* width: 100%; */
+  padding: 0.6rem 2.25rem;
+  margin: 0.75rem 0rem;
+}
+.orderBtn:hover {
+  color: white;
+  background-color: orange;
+  transition: 0.2s;
+}
